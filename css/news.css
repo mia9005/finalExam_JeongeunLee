@@ -1,1 +1,26 @@
 @import "body.css";
+.content {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15vh;
+}
+
+figure {
+  align-items: center;
+}
+
+figure:first-child > img {
+  float: left;
+}
+
+figure:last-child > img {
+  float: right;
+}
+
+figcaption {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+}/*# sourceMappingURL=news.css.map */
