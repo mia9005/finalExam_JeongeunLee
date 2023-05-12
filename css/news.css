@@ -209,4 +209,12 @@
   nav > ul {
     width: 70%;
   }
+  figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  figure:last-child {
+    flex-direction: row-reverse;
+  }
 }/*# sourceMappingURL=news.css.map */
