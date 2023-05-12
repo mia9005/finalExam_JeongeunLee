@@ -179,6 +179,22 @@
   footer > a {
     padding: 1%;
   }
+  main {
+    flex-direction: row;
+    -moz-column-gap: 5vw;
+         column-gap: 5vw;
+    align-items: baseline;
+  }
+  .left {
+    width: 50%;
+  }
+  .right {
+    width: 40%;
+  }
+  iframe {
+    width: 100%;
+    height: 40vh;
+  }
 }
 @media (min-width: 992px) {
   header h1 {
